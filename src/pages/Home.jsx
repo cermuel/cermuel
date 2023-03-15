@@ -25,7 +25,7 @@ const Home = () => {
           <span className="text-white"> Developer</span>
           <br />
           <span className="text-pry-color"> {"   Languages:"}</span>
-          <span className="text-white"> JS, CSS</span>
+          <span className="text-white"> JS, CSS, TS</span>
           <br />
           <br />
           <span className="text-white">{"}"}</span>

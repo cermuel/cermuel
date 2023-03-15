@@ -1,6 +1,8 @@
-import React from "react";
+import parse from "html-react-parser";
+import React, { useState } from "react";
 
-const ProjectCard = ({ reverse }) => {
+const ProjectCard = ({ reverse, image, title, text }) => {
+  const [showMore, setshowMore] = useState(false);
   const arrow = () => {
     return (
       <svg
@@ -24,17 +26,24 @@ const ProjectCard = ({ reverse }) => {
       } max-md:flex-wrap my-6`}
     >
       <div className="w-full md:w-[50%] md:p-4 p-2">
-        <div className="w-full h-[270px] bg-slate-300"></div>
+        <div className="w-full h-[270px] border-pry-color border-[1px] rounded-md">
+          <img src={image} alt={title} className="w-full h-full rounded-lg" />
+        </div>
       </div>
       <div className="w-full md:w-[50%] md:p-4 p-2 flex flex-col justify-center md:gap-6 gap-4">
         <div className="text-2xl max-md:text-xl font-white font-bold text-white">
-          Project Title
+          {title}
         </div>
         <div className="text-[#cccccc]">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus eius
-          hic, a voluptatum ipsum odio in consectetur, maiores quos delectus
-          enim ducimus, numquam suscipit accusantium?
+          {showMore ? parse(text) : parse(text.substring(0, 300))}
+          <span
+            className="text-sm text-pry-color pl-4 cursor-pointer"
+            onClick={() => setshowMore(!showMore)}
+          >
+            Show {showMore ? "Less" : "More"}
+          </span>
         </div>
+
         <a className="cursor-pointer flex gap-2 items-center text-white text-lg">
           View Project {arrow()}
         </a>
