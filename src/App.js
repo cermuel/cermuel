@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="w-screen justify-center flex font-poppins px-4">
+    <div className="w-screen justify-center flex font-poppins max-sm:px-2 overflow-hidden px-4">
       <div className="max-w-[1024px] w-full">
         <Navbar />
         <Home />
