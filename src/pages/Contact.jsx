@@ -29,26 +29,26 @@ const Contact = () => {
         <div className="flex w-full max-md:flex-wrap justify-between gap-6">
           <input
             type="text"
-            className="text-white w-[49%] max-md:w-full border-[1px] border-[#ABB2BF] bg-transparent outline-none p-2"
+            className="text-white focus:border-[#0EE6B7] w-[49%] max-md:w-full border-[1px] border-[#ABB2BF] bg-transparent outline-none p-2"
             placeholder="Name"
           />{" "}
           <input
             type="email"
-            className="text-white w-[49%] max-md:w-full border-[1px] border-[#ABB2BF] bg-transparent outline-none p-2"
+            className="text-white focus:border-[#0EE6B7] w-[49%] max-md:w-full border-[1px] border-[#ABB2BF] bg-transparent outline-none p-2"
             placeholder="Email"
           />
         </div>
         <div className="flex w-full flex-wrap justify-between gap-6">
           <input
             type="text"
-            className="text-white w-full border-[1px] border-[#ABB2BF] bg-transparent outline-none p-2"
+            className="text-white focus:border-[#0EE6B7] w-full border-[1px] border-[#ABB2BF] bg-transparent outline-none p-2"
             placeholder="Title"
           />
         </div>{" "}
         <div className="flex w-full flex-wrap justify-between gap-6">
           <textarea
             type="text"
-            className="text-white w-full border-[1px] border-[#ABB2BF] bg-transparent outline-none p-2"
+            className="text-white focus:border-[#0EE6B7] w-full border-[1px] border-[#ABB2BF] bg-transparent outline-none p-2"
             placeholder="Message"
             rows={10}
           />

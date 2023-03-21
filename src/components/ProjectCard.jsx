@@ -1,7 +1,7 @@
 import parse from "html-react-parser";
 import React, { useState } from "react";
 
-const ProjectCard = ({ reverse, image, title, text }) => {
+const ProjectCard = ({ reverse, image, title, text, url }) => {
   const [showMore, setshowMore] = useState(false);
   const arrow = () => {
     return (
@@ -44,7 +44,10 @@ const ProjectCard = ({ reverse, image, title, text }) => {
           </span>
         </div>
 
-        <a className="cursor-pointer flex gap-2 items-center text-white text-lg">
+        <a
+          className="cursor-pointer flex gap-2 items-center text-white text-lg"
+          href={url}
+        >
           View Project {arrow()}
         </a>
       </div>
