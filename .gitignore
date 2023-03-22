@@ -1,1 +1,15 @@
 /node_modules/
+*.pack
+*.pack
+node_modules/.cache/default-development/5.pack
+node_modules/.cache/default-development/7.pack
+node_modules/.cache/default-development/5.pack
+node_modules/.cache/default-development/8.pack
+*.pack
+*.pack
+*.pack
+src/assets/.DS_Store
+node_modules/.cache/.eslintcache
+src/assets/.DS_Store
+src/.DS_Store
+.DS_Store
