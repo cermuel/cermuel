@@ -51,7 +51,7 @@ const Skills = () => {
               Frameworks
             </div>
             <div className="text-[#bbbbbb] text-sm pt-1 px-2 tracking-widest [word-spacing:3px]">
-              React, React Native, TailwindCSS
+              React, NextJS, React Native, TailwindCSS
             </div>
           </div>
         </div>
