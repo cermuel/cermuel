@@ -16,10 +16,10 @@ const Footer = () => {
           <FaLinkedin className="text-white text-xl hover:text-pry-color cursor-pointer" />
         </div>
       </div>
-     <!--  <div className="text-sm text-center font-light mt-4 w-full text-[#cccccc]"> -->
-     <!--    &copy; Copyright Cermuel {new Date().getFullYear} -->
-     <!-- </div> -->
-
+      <div className="text-sm text-center font-light mt-4 w-full text-[#cccccc]">
+        {" "}
+        &copy; Copyright Cermuel {new Date().getFullYear}
+      </div>
     </div>
   );
 };
