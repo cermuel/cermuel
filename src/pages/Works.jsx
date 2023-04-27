@@ -32,7 +32,7 @@ const Works = () => {
         image={Rickipedia}
         title="Rickipedia"
         text={rickipedia}
-        url="https://rickipedia-mu.vercel.app/"
+        url="https://rickipedia.brimble.app/"
       />
       <ProjectCard
         reverse={false}
