@@ -5,6 +5,8 @@ import Works from "./pages/Works";
 import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import Hero from "./pages/Hero";
+import { works } from "./utils/works";
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <div className="max-w-[1024px] w-full">
         <Navbar />
         <Home />
+        {/* <Hero /> */}
         <AboutMe />
         <Skills />
         <Works />

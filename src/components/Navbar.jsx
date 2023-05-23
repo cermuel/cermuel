@@ -59,7 +59,7 @@ const Navbar = () => {
         </div>
         <div className="text-[#ABB2BF] hover:text-white cursor-pointer">
           <span className="text-[#0EE6B7]">#</span>
-          <a href="#contact">contact</a>
+          <a href="#contact">contacts</a>
         </div>
       </div>
       <div className="flex gap-4 max-sm:gap-1 max-sm:text-xs max-md:text-sm max-sm:hidden">

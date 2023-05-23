@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
-import Rickipedia from "../assets/images/rickipedia.png";
-import Portfolio from "../assets/images/portfolio.png";
-import Soundseek from "../assets/images/soundseek.png";
-import Netflix from "../assets/images/netflix.svg";
-import { netflix, portfolio, rickipedia, soundseek } from "../utils/works";
+import { works } from "../utils/works";
 import { RiShareBoxLine } from "react-icons/ri";
 const Works = () => {
+  const [workCategories, setworkCategories] = useState([
+    { name: "All", work: "" },
+    { name: "Web App", work: "Web App" },
+    { name: "Website", work: "Website" },
+    { name: "Mobile App", work: "Mobile App" },
+    { name: "ThreeJS", work: "ThreeJS" },
+  ]);
+  const [currentWorkCategory, setcurrentWorkCategory] = useState("");
+  const filteredWorks = works.filter((work) => {
+    return work.type.includes(currentWorkCategory);
+  });
+  const [sliced, setsliced] = useState(3);
+  const boy = true;
   return (
     <section
       id="works"
@@ -14,50 +23,71 @@ const Works = () => {
     >
       <div className="flex items-center gap-2 w-full">
         <div className="text-white font-semibold text-3xl">
-          <span className="text-[#0EE6B7]">#</span>
+          <span className="text-pry-color">#</span>
           works
         </div>
         <div className="w-[260px] h-[2px] bg-pry-color"></div>
       </div>
       <br />
-      <ProjectCard
-        reverse={false}
-        image={Netflix}
-        title="Netflix"
-        text={netflix}
-        url="https://expo.dev/@cermuel/netflix?serviceType=classic&distribution=expo-go"
-      />
-      <ProjectCard
-        reverse={true}
-        image={Rickipedia}
-        title="Rickipedia"
-        text={rickipedia}
-        url="https://rickipedia.brimble.app/"
-      />
-      <ProjectCard
-        reverse={false}
-        image={Soundseek}
-        title="Soundseek"
-        text={soundseek}
-        url="https://soundseek-user.vercel.app/"
-      />
-      {/* <ProjectCard
-        reverse={true}
-        image={Portfolio}
-        title="Portfolio"
-        text={portfolio}
-        url="https://cermuel.vercel.app/"
-      /> */}
-      <div className="w-full">
-        <div className="flex w-[200px] font-medium text-white justify-center items-center gap-3 bg-[#4c4c4c] opacity-100 py-3 px-4 rounded-lg">
+      <div className="w-full flex my-4 mt-6">
+        {workCategories.map((work) => {
+          const activeCategory = work.work == currentWorkCategory;
+          return (
+            <button
+              onClick={() => {
+                setcurrentWorkCategory(work.work);
+              }}
+              className={`${
+                activeCategory ? "border-b-pry-color" : "border-transparent"
+              } w-[20%] max-sm:text-xs max-sm:mx-1 justify-center text-center md:text-lg border-b-4 text-white font-medium`}
+            >
+              {work.name}
+            </button>
+          );
+        })}
+      </div>
+      <br />
+      <h1 className="text-xl font-semibold text-pry-color sm:hidden">
+        {currentWorkCategory == "" ? "All" : currentWorkCategory}
+      </h1>
+      <br />
+      {filteredWorks.slice(0, sliced).map((work) => {
+        return (
+          <ProjectCard
+            reverse={work.reverse}
+            image={work.image}
+            title={work.title}
+            text={work.text}
+            url={work.url}
+          />
+        );
+      })}
+
+      <div className="w-full flex items-center">
+        {sliced == 3 ? (
+          <button
+            onClick={() => setsliced(Infinity)}
+            className="flex w-[120px] max-sm:w-[120px] max-sm:text-xs max-sm:px-1 mr-auto font-medium text-white justify-center items-center gap-3 bg-[#4c4c4c] opacity-100 py-3 px-4 rounded-lg"
+          >
+            See more
+          </button>
+        ) : (
+          <button
+            onClick={() => setsliced(4)}
+            className="flex w-[120px] max-sm:w-[120px] max-sm:text-xs max-sm:px-1 mr-auto font-medium text-white justify-center items-center gap-3 bg-[#4c4c4c] opacity-100 py-3 px-4 rounded-lg"
+          >
+            See Less
+          </button>
+        )}
+        <button className="flex w-[200px] max-sm:w-[120px] max-sm:text-xs max-sm:px-1 ml-auto font-medium text-white justify-center items-center gap-3 bg-[#4c4c4c] opacity-100 py-3 px-4 rounded-lg">
           <a
             href="https://github.com/cermuel"
             className="flex items-center gap-2"
           >
             Github for more
-            <RiShareBoxLine className="text-lg font-extrabold" />
+            <RiShareBoxLine className="sm:text-lg font-extrabold" />
           </a>
-        </div>
+        </button>
       </div>
     </section>
   );

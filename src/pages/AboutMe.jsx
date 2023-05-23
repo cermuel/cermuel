@@ -10,7 +10,7 @@ const AboutMe = () => {
       <div>
         <div className="flex items-center gap-2">
           <div className="text-white font-semibold text-3xl">
-            <span className="text-[#0EE6B7]">#</span>
+            <span className="text-pry-color">#</span>
             aboutMe
           </div>
           <div className="w-[170px] h-[2px] bg-pry-color"></div>

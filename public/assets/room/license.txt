@@ -1,0 +1,11 @@
+Model Information:
+* title:	Whose Room
+* source:	https://sketchfab.com/3d-models/whose-room-a68c9c4beaee4a0db874a9df9384a740
+* author:	Sukhomlyn Bogdan (https://sketchfab.com/sukhomlyn_bogdan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Whose Room" (https://sketchfab.com/3d-models/whose-room-a68c9c4beaee4a0db874a9df9384a740) by Sukhomlyn Bogdan (https://sketchfab.com/sukhomlyn_bogdan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

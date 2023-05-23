@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="w-full">
         <div className="flex items-center gap-2">
           <div className="text-white font-semibold text-3xl">
-            <span className="text-[#0EE6B7]">#</span>
+            <span className="text-pry-color">#</span>
             contact
           </div>
           <div className="w-[170px] h-[2px] bg-pry-color"></div>
@@ -22,7 +22,10 @@ const Contact = () => {
         </div>
         <div className="w-[45%] max-md:hidden text-right text-[#cccccc]">
           <span className="text-lg text-white font-medium">Email:</span>{" "}
-          samuelobasi2005@gmail.com
+          <a href="mailto:samuelobasi2005@gmail.com">
+            {" "}
+            samuelobasi2005@gmail.com
+          </a>
         </div>
       </div>
       <div className="w-full flex justify-center flex-wrap gap-6">
