@@ -7,8 +7,11 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import Hero from "./pages/Hero";
 import { works } from "./utils/works";
+import { useState } from "react";
 
 function App() {
+  //cermuel portfolio
+  const [owner, setOwner] = useState("CERMUEL");
   return (
     <div className="w-screen justify-center flex font-poppins max-sm:px-2 overflow-hidden px-4">
       <div className="max-w-[1024px] w-full">
