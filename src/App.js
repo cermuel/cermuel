@@ -11,7 +11,7 @@ import { useState } from "react";
 
 function App() {
   //cermuel portfolio
-  const [owner, setOwner] = useState("CERMUEL");
+  const [owner, setOwner] = useState("CERMUEL GITHUB STREAK RUNNING");
   return (
     <div className="w-screen justify-center flex font-poppins max-sm:px-2 overflow-hidden px-4">
       <div className="max-w-[1024px] w-full">
