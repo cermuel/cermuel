@@ -13,3 +13,5 @@ node_modules/.cache/.eslintcache
 src/assets/.DS_Store
 src/.DS_Store
 .DS_Store
+/.next/static
+/.next
