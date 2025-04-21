@@ -1,5 +1,12 @@
 const projects = [
   {
+    title: "Init",
+    stack: "Next.js · React Context · Framer Motion",
+    description:
+      "A macOS-inspired web desktop with draggable apps, project management, real-time collaboration, and built-in chat and video call support.",
+    link: "https://init.brimble.app",
+  },
+  {
     title: "Zync",
     stack: "NestJS + Next.js + Expo",
     description: "Cross-platform team collaboration app",
@@ -23,12 +30,7 @@ const projects = [
     description: "Create and share instant live polls",
     link: "https://pollify-v.vercel.app/",
   },
-  {
-    title: "Keppler",
-    stack: "React + Tailwind CSS",
-    description: "Landing page for real-time code tool",
-    link: "https://keppler.brimble.app/",
-  },
+
   {
     title: "Goalz",
     stack: "Next.js + Firebase + ESPN API",

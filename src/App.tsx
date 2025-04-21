@@ -33,7 +33,7 @@ function App() {
           <img src="/icon.png" className="h-[80%] md:h-full" alt="" />
         </nav>
         <div className="flex-1 flex justify-between items-start w-full gap-10">
-          <div className="w-full lg:max-w-[50%] space-y-5 md:space-y-10 md:mt-40 mt-20">
+          <div className="w-full lg:max-w-[50%] space-y-5 md:space-y-10 lg:mt-40 mt-20">
             <h1 className="text-[#e7e8fb] md:text-5xl text-3xl lg:text-7xl font-bold leading-[105%]">
               Frontend <br className="max-lg:hidden" /> Developer
             </h1>
