@@ -52,7 +52,7 @@ const works = [
     title: "Stamp Duty",
     stack: "React + Tailwind + Firebase",
     description: "Fast invoice generator with PDF export",
-    link: "https://stamp-duty.vercel.app/",
+    link: "https://stamp-duty-rho.vercel.app/",
   },
   {
     title: "iVerify",
@@ -65,7 +65,7 @@ const works = [
     stack: "React + Tailwind + Firebase",
     description:
       "Mental health platform with journaling and therapist matching",
-    link: "", // replace with the actual link if different
+    link: "https://www.joincouch.co/", // replace with the actual link if different
   },
 ];
 
