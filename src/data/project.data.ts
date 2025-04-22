@@ -3,8 +3,20 @@ const projects = [
     title: "Init",
     stack: "Next.js · React Context · Framer Motion",
     description:
-      "A macOS-inspired web desktop with draggable apps, project management, real-time collaboration, and built-in chat and video call support.",
+      "A macOS-inspired web desktop",
     link: "https://init.brimble.app",
+  },
+   {
+    title: "Minder",
+    stack: "React + Firebase + Spotify API",
+    description: "Thoughts meet music, beautifully",
+    link: "https://minder.vercel.app",
+  },
+    {
+    title: "Devbin",
+    stack: "React + Socket.io",
+    description: "Collaborative code editor with real-time sync",
+    link: "https://devbin.vercel.app",
   },
   {
     title: "Zync",
@@ -12,18 +24,8 @@ const projects = [
     description: "Cross-platform team collaboration app",
     link: "https://zync-c.vercel.app",
   },
-  {
-    title: "Devbin",
-    stack: "React + Socket.io",
-    description: "Collaborative code editor with real-time sync",
-    link: "https://devbin.vercel.app",
-  },
-  {
-    title: "Minder",
-    stack: "React + Firebase + Spotify API",
-    description: "Thoughts meet music, beautifully",
-    link: "https://minder.vercel.app",
-  },
+
+ 
   {
     title: "Pollify",
     stack: "React + Tailwind CSS + Socket.io",
@@ -63,7 +65,7 @@ const works = [
     stack: "React + Tailwind + Firebase",
     description:
       "Mental health platform with journaling and therapist matching",
-    link: "https://couch-mental.vercel.app", // replace with the actual link if different
+    link: "", // replace with the actual link if different
   },
 ];
 
