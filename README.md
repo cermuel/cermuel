@@ -18,7 +18,7 @@ Frontend Engineer
 <h2>SKILLS </h2>
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=next,reactnative,react-native,react+native,react native,react,redux,js,vite,typescript,scss,tailwind,git" />
+    <img src="https://skillicons.dev/icons?i=next,react,redux,js,vite,typescript,scss,tailwind,git,firebase,node,mongo" />
   </a>
 </p>
 
