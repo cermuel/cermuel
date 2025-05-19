@@ -10,7 +10,7 @@
 
 <h2 align="left">Connect with me:</h2>
 <p align="left">
-<a href="https://x.com/Timmi_tech" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="tiiimmiiii" height="30" width="40" /></a>
+<a href="https://x.com/Timmi_tech" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/link.svg" alt="tiiimmiiii" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/ngene-samuel-obasi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Daniel Oluwole" height="30" width="40" /></a>
 </p>
 
