@@ -18,15 +18,12 @@ Frontend Engineer
 <h2>SKILLS </h2>
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=next,react,redux,js,vite,typescript,scss,tailwind,git,firebase,node,mongo" />
+    <img src="https://skillicons.dev/icons?i=next,react,redux,js,vite,typescript,scss,tailwind,git,firebase,nodejs,mongo" />
   </a>
 </p>
 
 
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=cermuel" alt="cermuel" /></p>
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=cermuel&theme=soft-green&hide_border=true&card_width=380" alt="" onerror="this.style.display='none';" />
-</div>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=cermuel&theme=soft-blue" alt="cermuel" /></p>
 
 [![Cermuel's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=cermuel)](https://github.com/anuraghazra/github-readme-stats)<br/>
