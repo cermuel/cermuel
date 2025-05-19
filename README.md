@@ -24,6 +24,6 @@ Frontend Engineer
 
 
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=cermuel&theme=soft-blue" alt="cermuel" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com?user=cermuel&theme=tokyonight&hide_border=true&short_numbers=true" alt="cermuel" /></p>
 
 [![Cermuel's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=cermuel)](https://github.com/anuraghazra/github-readme-stats)<br/>
