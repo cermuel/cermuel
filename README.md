@@ -8,8 +8,7 @@ Frontend Engineer
 
 
 - 📫 Reach me at **samuelobasi2005@gmail.com**
-- 🔗 Check out <a href="[https://x.com/yrn_cermuel](https://init-theta.vercel.app/)" target="blank">Init</a>
-[![Check out Init]([https://github-readme-stats.vercel.app/api/wakatime?username=cermuel](https://init-theta.vercel.app/))]<br/>
+- 🔗 Check out <a href="https://init-theta.vercel.app/" target="blank">Init</a>
 
 <h2 align="left">Connect with me:</h2>
 <p align="left">
