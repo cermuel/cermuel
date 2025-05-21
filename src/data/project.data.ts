@@ -4,7 +4,7 @@ const projects = [
     stack: "Next.js · React Context · Framer Motion",
     description:
       "A macOS-inspired web desktop",
-    link: "https://init.brimble.app",
+    link: "https://init-theta.vercel.app",
   },
    {
     title: "Minder",
