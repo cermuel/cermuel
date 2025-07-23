@@ -1,16 +1,14 @@
 import { useState } from "react";
 import { project } from "./data/project.data";
 import { FiArrowUpRight } from "react-icons/fi";
-import { Canvas, extend } from "@react-three/fiber";
+import { extend } from "@react-three/fiber";
 import {
   useGLTF,
   useTexture,
-  Environment,
-  Lightformer,
+  // Environment,
+  // Lightformer,
 } from "@react-three/drei";
-import { Physics } from "@react-three/rapier";
 import { MeshLineGeometry, MeshLineMaterial } from "meshline";
-import Band from "./components/Band";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { IoDocumentAttachOutline } from "react-icons/io5";
@@ -32,24 +30,47 @@ function App() {
 
           <img src="/icon.png" className="h-[80%] md:h-full" alt="" />
         </nav>
-        <div className="flex-1 flex justify-between items-start w-full gap-10">
-          <div className="w-full lg:max-w-[50%] space-y-5 md:space-y-10 lg:mt-40 mt-20">
-            <h1 className="text-[#e7e8fb] md:text-5xl text-3xl lg:text-7xl font-bold leading-[105%]">
-              Frontend <br className="max-lg:hidden" /> Developer
+        <div className="flex-1 max-lg:pt-20 flex flex-wrap justify-between items-center w-full gap-10">
+          <div className="w-full lg:max-w-[50%] space-y-5 md:space-y-10">
+            <h1 className="text-[#e7e8fb] uppercase tracking-tighter md:text-5xl text-3xl lg:text-8xl font-bold leading-[100%] lg:leading-[80%]">
+              Frontend <br className="max-lg:hidden" />
+              <span className="lg:pl-10 text-[#d0d3f5fa]">Engineer</span>
             </h1>
             <h3 className="text-[#d0d3f5fa] font-medium text-xs md:text-sm">
-              Frontend isn't just what users see, it's what they feel.{" "}
-              <br className="md:hidden" /> I build both.
+              Hi! I'm Samuel. A creative Frontend Engineer with 3+ years of
+              experience in building high-performance, scalable, and responsive
+              web solutions.
             </h3>
             <a
               href="#contact"
-              className="text-[#e7e8fb] block text-center w-full border-[1.5px] border-[text-[#e7e8fb] py-3 max-md:text-sm md:py-4 cursor-pointer hover:bg-[#e7e8fb3A]"
+              className="text-[#e7e8fb] block text-center w-full border-[1.5px] border-[text-[#e7e8fb] py-3 max-md:text-sm md:py-4 hover:text-black duration-300 cursor-pointer hover:bg-[#d0d3f5fa]"
             >
               SAY HELLO
             </a>
           </div>
-
-          <div className="flex-1 lg:block hidden top-0 right-0 w-screen h-screen">
+          <div className="flex lg:flex-col max-lg:self-center max-lg:w-full  max-lg:justify-center lg:items-end gap-10">
+            <div className="flex flex-col items-center md:items-end">
+              <h1 className="font-bold text-2xl md:text-5xl text-[#d0d3f5fa]">
+                3<span className="md:text-2xl text-base">+</span>
+              </h1>
+              <p className="max-md:text-sm text-gray-500">
+                Years of Experience
+              </p>
+            </div>
+            <div className="flex flex-col items-center md:items-end">
+              <h1 className="font-bold text-2xl md:text-5xl text-[#d0d3f5fa]">
+                10<span className="md:text-2xl text-base">+</span>
+              </h1>
+              <p className="max-md:text-sm text-gray-500">Completed Projects</p>
+            </div>
+            <div className="flex flex-col items-center md:items-end">
+              <h1 className="font-bold text-2xl md:text-5xl text-[#d0d3f5fa]">
+                800k<span className="md:text-2xl text-base">+</span>
+              </h1>
+              <p className="max-md:text-sm text-gray-500">Hours worked</p>
+            </div>
+          </div>
+          {/* <div className="flex-1 lg:block hidden top-0 right-0 w-screen h-screen">
             <Canvas
               camera={{ position: [0, 0, 15], fov: 25 }}
               style={{
@@ -97,7 +118,7 @@ function App() {
                 />
               </Environment>
             </Canvas>
-          </div>
+          </div> */}
         </div>
       </section>
       <section className="w-full md:h-screen md:pt-10 pt-28">

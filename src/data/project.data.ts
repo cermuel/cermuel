@@ -2,17 +2,16 @@ const projects = [
   {
     title: "Init",
     stack: "Next.js · React Context · Framer Motion",
-    description:
-      "A macOS-inspired web desktop",
+    description: "A macOS-inspired web desktop",
     link: "https://init-theta.vercel.app",
   },
-   {
+  {
     title: "Minder",
     stack: "React + Firebase + Spotify API",
     description: "Thoughts meet music, beautifully",
     link: "https://minder.vercel.app",
   },
-    {
+  {
     title: "Devbin",
     stack: "React + Socket.io",
     description: "Collaborative code editor with real-time sync",
@@ -25,7 +24,6 @@ const projects = [
     link: "https://zync-c.vercel.app",
   },
 
- 
   {
     title: "Pollify",
     stack: "React + Tailwind CSS + Socket.io",
@@ -43,26 +41,27 @@ const projects = [
 
 const works = [
   {
+    title: "MAP",
+    stack: "NextJS + Web Sockets + Redux",
+    description: "Medical Advancement Platform",
+    link: "https://mapis4u.com/",
+  },
+  {
     title: "Adashe",
-    stack: "React + Tailwind + Firebase",
+    stack: "NextJS + Tailwind + Firebase",
     description: "Cooperative society management platform",
     link: "https://adashe.net/",
   },
-  {
-    title: "Stamp Duty",
-    stack: "React + Tailwind + Firebase",
-    description: "Fast invoice generator with PDF export",
-    link: "https://stamp-duty-rho.vercel.app/",
-  },
+
   {
     title: "iVerify",
-    stack: "React + Tailwind + NIN/BVN APIs",
+    stack: "React + TailwindCSS + API integration",
     description: "Biometric and business verification system",
     link: "https://iverify-uat-web-520860309312.us-central1.run.app/",
   },
   {
     title: "Couch",
-    stack: "React + Tailwind + Firebase",
+    stack: "React + Tailwind + API integration",
     description:
       "Mental health platform with journaling and therapist matching",
     link: "https://www.joincouch.co/", // replace with the actual link if different
