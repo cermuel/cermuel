@@ -291,7 +291,7 @@ function App() {
           </li>
           <li className="relative group overflow-hidden">
             <a
-              href="/files/resume.pdf"
+              href="/files/resume-u.pdf"
               target="_blank"
               className="flex gap-[3px] items-center text-[#e7e8fb]  text-xs md:text-sm"
             >
