@@ -59,13 +59,13 @@ function App() {
             </div>
             <div className="flex flex-col items-center md:items-end">
               <h1 className="font-bold text-2xl md:text-5xl text-[#d0d3f5fa]">
-                10<span className="md:text-2xl text-base">+</span>
+                20<span className="md:text-2xl text-base">+</span>
               </h1>
               <p className="max-md:text-sm text-gray-500">Completed Projects</p>
             </div>
             <div className="flex flex-col items-center md:items-end">
               <h1 className="font-bold text-2xl md:text-5xl text-[#d0d3f5fa]">
-                800k<span className="md:text-2xl text-base">+</span>
+                1k<span className="md:text-2xl text-base">+</span>
               </h1>
               <p className="max-md:text-sm text-gray-500">Hours worked</p>
             </div>
