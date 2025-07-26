@@ -1,5 +1,11 @@
 const projects = [
   {
+    title: "TypeSmith",
+    stack: "React.js · Monaco Editor · Context API",
+    description: "Instantly generate TypeScript interfaces from JSON.",
+    link: "https://typesmith.vercel.app/",
+  },
+  {
     title: "Init",
     stack: "Next.js · React Context · Framer Motion",
     description: "A macOS-inspired web desktop",
