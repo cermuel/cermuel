@@ -12,6 +12,13 @@ const projects = [
     link: "https://init-theta.vercel.app",
   },
   {
+    title: "Build Your Own",
+    stack: "Next.js · Git",
+    description: "Browse and discover unique project tutorials.",
+    link: " http://build-your-own-beta.vercel.app/",
+  },
+
+  {
     title: "Minder",
     stack: "React + Firebase + Spotify API",
     description: "Thoughts meet music, beautifully",
