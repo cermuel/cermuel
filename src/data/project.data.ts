@@ -5,19 +5,32 @@ const projects = [
     description: "Instantly generate TypeScript interfaces from JSON.",
     link: "https://typesmith.vercel.app/",
   },
+  
+ {
+    title: "TypeSmith Extension",
+    stack: "Javacript · Yo · Visual Studio",
+    description: "Instantly generate TypeScript interfaces from JSON VSCODE Extension.",
+    link: "https://marketplace.visualstudio.com/items?itemName=typesmith.typesmith&ssr=false#review-details",
+  },
   {
     title: "Init",
     stack: "Next.js · React Context · Framer Motion",
     description: "A macOS-inspired web desktop",
     link: "https://init-theta.vercel.app",
   },
+   {
+    title: "Codex",
+    stack: "Next.js + Monaco Editor",
+    description: "Online code editor",
+    link: "https://codex-c.vercel.app/",
+  },
+
   {
     title: "Build Your Own",
     stack: "Next.js · Git",
     description: "Browse and discover unique project tutorials.",
     link: " http://build-your-own-beta.vercel.app/",
   },
-
   {
     title: "Minder",
     stack: "React + Firebase + Spotify API",
@@ -30,13 +43,7 @@ const projects = [
     description: "Collaborative code editor with real-time sync",
     link: "https://devbin.vercel.app",
   },
-  {
-    title: "Zync",
-    stack: "NestJS + Next.js + Expo",
-    description: "Cross-platform team collaboration app",
-    link: "https://zync-c.vercel.app",
-  },
-
+ 
   {
     title: "Pollify",
     stack: "React + Tailwind CSS + Socket.io",
