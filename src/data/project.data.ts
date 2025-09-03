@@ -8,7 +8,7 @@ const projects = [
   
  {
     title: "TypeSmith Extension",
-    stack: "Javacript · Yo · Visual Studio",
+    stack: "Javascript · Yo · Visual Studio",
     description: "Instantly generate TypeScript interfaces from JSON VSCODE Extension.",
     link: "https://marketplace.visualstudio.com/items?itemName=typesmith.typesmith&ssr=false#review-details",
   },
@@ -38,25 +38,11 @@ const projects = [
     link: "https://minder.vercel.app",
   },
   {
-    title: "Devbin",
-    stack: "React + Socket.io",
-    description: "Collaborative code editor with real-time sync",
-    link: "https://devbin.vercel.app",
-  },
- 
-  {
     title: "Pollify",
     stack: "React + Tailwind CSS + Socket.io",
     description: "Create and share instant live polls",
     link: "https://pollify-v.vercel.app/",
-  },
-
-  {
-    title: "Goalz",
-    stack: "Next.js + Firebase + ESPN API",
-    description: "View live football scores and stats",
-    link: "https://goalzzz.vercel.app/",
-  },
+  }
 ];
 
 const works = [
