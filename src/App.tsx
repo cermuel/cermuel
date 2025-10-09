@@ -249,6 +249,8 @@ function App() {
             autoPlay
             muted
             loop
+            playsInline
+            preload="auto"
           ></video>
           <video
             src=" https://video.twimg.com/amplify_video/1944726662316195840/vid/avc1/1152x720/-ajAO6Dy481kpaiW.mp4
@@ -259,6 +261,8 @@ function App() {
             autoPlay
             muted
             loop
+            playsInline
+            preload="auto"
           ></video>
         </ul>
 
