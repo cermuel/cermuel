@@ -20,6 +20,12 @@ function App() {
   }, [isDark]);
 
   useEffect(() => {
+    console.info(
+      "Like this site, shoot me a mail at samuelobasi2005@gmail.com"
+    );
+  }, []);
+
+  useEffect(() => {
     if (Project) {
       document.body.style.overflow = "hidden";
     } else {
@@ -76,7 +82,19 @@ function App() {
               >
                 View Project <GoLink size={12} />
               </a>
-              <img src={Project.image} className="w-full rounded-xl" alt="" />
+              {Project.isVideo ? (
+                <video
+                  src={Project.image}
+                  className="w-full rounded-xl"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  preload="auto"
+                />
+              ) : (
+                <img src={Project.image} className="w-full rounded-xl" alt="" />
+              )}
               <p
                 dangerouslySetInnerHTML={{
                   __html: Project.description.replace(/\n/g, "<br />"),
@@ -203,6 +221,7 @@ function App() {
         <ul className="md:grid-cols-2 grid-cols-1 gap-y-6 gap-x-4 grid my-5">
           {project.projects.map((project) => (
             <li
+              key={project.url}
               className={`border p-4 rounded-[10px] col-span-1 cursor-pointer  flex flex-col gap-4 ${
                 isDark ? "border-[#333]" : "border-[#DDD]"
               } transition-colors duration-300`}

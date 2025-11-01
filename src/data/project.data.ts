@@ -5,9 +5,30 @@ export interface Project {
   shortDescription: string;
   image: string;
   sector: string[];
+  isVideo?: boolean;
 }
 
 const projects: Project[] = [
+  {
+    name: "SmartForm",
+    url: "https://www.npmjs.com/package/@cermuel/smart-form",
+    shortDescription:
+      "type-safe React form component with built-in validation and Tailwind styling.",
+    description:
+      "SmartForm is a flexible, type-safe React form package designed to make form building effortless. Built with TypeScript, it provides intelligent type inference, built-in validation, and beautiful Tailwind CSS styling out of the box. Developers can quickly create fully functional forms without writing repetitive state or validation logic.\n\nIt supports multiple field types—including text, email, password, checkbox, select, date, and time—and includes quality-of-life features like password visibility toggles, custom validation patterns, and dynamic rendering for custom layouts. Every form is type-safe by default, ensuring clean, maintainable code with zero configuration.\n\nSmartForm is perfect for developers who want to build reliable, modern, and visually consistent forms fast. Whether you’re creating a quick login form or a complex multi-field registration page, SmartForm keeps your workflow efficient and your UI polished.",
+    image: "/assets/images/smartform.png",
+    sector: ["forms", "npm"],
+  },
+  {
+    name: "Meridian",
+    url: "https://meridian-xyz.vercel.app",
+    shortDescription:
+      "visualize how your React project’s files are connected through imports.",
+    description:
+      "Meridian is an interactive visualization tool that helps developers understand their React projects. After logging in with GitHub, you can select a repository and instantly see how pages, components, hooks, and other files are linked through imports—displayed as a dynamic node graph built with React Flow.\n\nYou can click any node to view its file contents in a syntax-highlighted panel or hover to preview its first few lines and imports. Each node is color-coded based on its type (page, component, hook, context, etc.), making complex projects easier to explore and debug.\n\nMeridian turns static codebases into living diagrams, making it perfect for understanding project structure, identifying dependencies, and onboarding faster.",
+    image: "/assets/images/meridian.png",
+    sector: ["dev tools", "visualization"],
+  },
   {
     name: "INIT",
     url: "https://init-theta.vercel.app",
@@ -16,6 +37,16 @@ const projects: Project[] = [
       "INIT is a macOS-style web desktop environment built with Next.js that recreates the feel of a real computer system directly inside the browser. It features draggable, resizable windows, a functional dock, app launching, and persistent local storage that mimics an operating system’s file management. INIT combines performance and aesthetic realism to create a smooth, immersive experience for users who love desktop-like interactivity on the web.\n\nThe project was designed to explore how far modern web technologies can go in simulating native operating systems. Every element—from the icons to the context menus—was built to behave like macOS, giving users an authentic digital workspace without leaving the browser.",
     image: "/assets/images/init.png",
     sector: ["os", "simulation"],
+  },
+  {
+    name: "Snipp",
+    url: "https://snipp-two.vercel.app",
+    shortDescription: "Generate beautiful code snippet images in seconds.",
+    description:
+      "Snipp is a clean and minimal tool for turning your code into beautiful, shareable images—perfect for social posts, documentation, or portfolios. Inspired by ray.so, it allows users to paste or write code, choose themes, customize backgrounds, adjust padding, and export high-quality screenshots instantly.\n\nBuilt with Next.js and Tailwind CSS, Snipp focuses on speed, simplicity, and design precision. It supports syntax highlighting for multiple languages, custom color themes, and one-click download or copy-to-clipboard options.\n\nSnipp was built to make sharing code visually appealing and effortless for developers, designers, and content creators alike.",
+    image: "/assets/images/snip.mp4",
+    sector: ["developer-tools", "design", "frontend"],
+    isVideo: true,
   },
   {
     name: "TypeSmith",
@@ -54,15 +85,15 @@ const projects: Project[] = [
     image: "/assets/images/map.png",
     sector: ["healthcare", "cloud", "erp"],
   },
-  {
-    name: "iVerify",
-    url: "#",
-    shortDescription: "Biometric and document  made simple.",
-    description:
-      "iVerify is a biometric and document verification system built for organizations that need to authenticate user identities quickly and securely. The platform uses facial recognition, document scanning, and data validation to confirm user information in real time. It provides administrators with a clear dashboard for managing verification requests, reviewing documents, and approving or rejecting users with confidence.\n\nYou worked specifically on the admin and officer dashboards, focusing on clarity, efficiency, and performance. iVerify places strong emphasis on trust and data integrity, ensuring that identity checks remain accurate and tamper-proof. It stands as a reliable solution for digital identity management.",
-    image: "/assets/images/iverify.png",
-    sector: ["security", "identity", "verification", "biometric"],
-  },
+  // {
+  //   name: "iVerify",
+  //   url: "#",
+  //   shortDescription: "Biometric and document  made simple.",
+  //   description:
+  //     "iVerify is a biometric and document verification system built for organizations that need to authenticate user identities quickly and securely. The platform uses facial recognition, document scanning, and data validation to confirm user information in real time. It provides administrators with a clear dashboard for managing verification requests, reviewing documents, and approving or rejecting users with confidence.\n\nYou worked specifically on the admin and officer dashboards, focusing on clarity, efficiency, and performance. iVerify places strong emphasis on trust and data integrity, ensuring that identity checks remain accurate and tamper-proof. It stands as a reliable solution for digital identity management.",
+  //   image: "/assets/images/iverify.png",
+  //   sector: ["security", "identity", "verification", "biometric"],
+  // },
 ];
 
 const works = [
