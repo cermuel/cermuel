@@ -196,7 +196,7 @@ function App() {
           </li>
         </ul>
         <a
-          href="/files/SAMUEL NGENE resume.pdf"
+          href="/files/Ngene Samuel Obasi Resume.pdf"
           download
           className={`rounded-md border-2 ${
             isDark
