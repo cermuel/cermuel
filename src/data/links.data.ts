@@ -17,5 +17,5 @@ export const links: Link[] = [
     url: "https://x.com/yrn_cermuel",
   },
   { icon: IoMdMail, url: "mailto:samuelobasi2005@gmail.com" },
-  { icon: BsFileEarmarkArrowDown, url: "/files/SAMUEL NGENE resume.pdf" },
+  { icon: BsFileEarmarkArrowDown, url: "/files/Ngene Samuel Obasi Resume.pdf" },
 ];
