@@ -10,6 +10,17 @@ export interface Project {
 
 const projects: Project[] = [
   {
+    name: "Invites",
+    url: "https://expo.dev/preview/update?message=Final+UI+designed+with+in-app+notifications&updateRuntimeVersion=1.0.0&createdAt=2025-11-24T12%3A23%3A03.654Z&slug=exp&projectId=e80e4492-3526-4536-aa7b-57ff533f1ef4&group=57cd23ee-6d4c-4d17-9897-069b4d6fda23",
+    shortDescription:
+      "A smooth, modern event invitation experience with built-in push notifications.",
+    description:
+      "Invites is a polished, mobile-first experience for creating and managing event invitations with real-time push notifications. Users can send event invites, track responses instantly, and receive timely alerts for updates or changes. The interface is clean, fast, and intuitive—built to feel effortless whether you're organizing small gatherings or larger events.\n\nDesigned with attention to detail and responsiveness, Invites delivers a seamless workflow from creating an event to notifying attendees. It emphasizes clarity, smooth interactions, and reliable notification handling to ensure every user stays informed and connected.\n\nHow to preview the app: \nDownload Expo Go on your Android or iPhone. \nClick the link above, and you can instantly open and preview the app inside Expo Go.",
+    image: "/assets/images/invites.mp4",
+    sector: ["events", "mobile dev"],
+    isVideo: true,
+  },
+  {
     name: "SmartForm",
     url: "https://www.npmjs.com/package/@cermuel/smart-form",
     shortDescription:
@@ -44,7 +55,7 @@ const projects: Project[] = [
     shortDescription: "Generate beautiful code snippet images in seconds.",
     description:
       "Snipp is a clean and minimal tool for turning your code into beautiful, shareable images—perfect for social posts, documentation, or portfolios. Inspired by ray.so, it allows users to paste or write code, choose themes, customize backgrounds, adjust padding, and export high-quality screenshots instantly.\n\nBuilt with Next.js and Tailwind CSS, Snipp focuses on speed, simplicity, and design precision. It supports syntax highlighting for multiple languages, custom color themes, and one-click download or copy-to-clipboard options.\n\nSnipp was built to make sharing code visually appealing and effortless for developers, designers, and content creators alike.",
-    image: "/assets/images/snip.mp4",
+    image: "/assets/images/snipp.mp4",
     sector: ["developer-tools", "design", "frontend"],
     isVideo: true,
   },
