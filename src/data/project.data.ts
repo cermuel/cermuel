@@ -10,6 +10,15 @@ export interface Project {
 
 const projects: Project[] = [
   {
+    name: "Synqd",
+    url: "https://synqd.vercel.app/",
+    shortDescription: "Realtime file sharing across devices without limit",
+    description:
+      "Synqd is a fast, cross-platform file sharing experience that works instantly in your browser. No apps, no accounts, no size limits. Drop files between any devices using WebRTC peer-to-peer connections with WebSocket signaling for seamless discovery and transfers. \n\nBuilt for speed and simplicity, Synqd delivers AirDrop-like convenience on the web. Whether you're moving photos between your phone and laptop, sharing large video files, or transferring documents across operating systems, everything happens directly between devices with end-to-end encryption. The interface is clean and responsive, designed to feel native on mobile, tablet, and desktop. \n\nFiles transfer at maximum speed through direct peer connections, with real-time progress tracking and instant notifications. No cloud middleman, no upload delays, no storage quotas. Just open Synqd on any device with a browser, sync up, and share.",
+    image: "/assets/images/synqd.png",
+    sector: ["file sharing", "webRTC"],
+  },
+  {
     name: "Invites",
     url: "https://expo.dev/preview/update?message=Final+UI+designed+with+in-app+notifications&updateRuntimeVersion=1.0.0&createdAt=2025-11-24T12%3A23%3A03.654Z&slug=exp&projectId=e80e4492-3526-4536-aa7b-57ff533f1ef4&group=57cd23ee-6d4c-4d17-9897-069b4d6fda23",
     shortDescription:
@@ -77,25 +86,25 @@ const projects: Project[] = [
     image: "/assets/images/spacetrade.png",
     sector: ["crypto", "finance", "payments"],
   },
-  {
-    name: "Adashe",
-    url: "https://adashe.net",
-    shortDescription:
-      "Digital cooperative platform for savings and contributions.",
-    description:
-      "Adashe is a modern digital cooperative-society platform that helps users save, contribute, and manage group finances transparently. Members can make contributions, request withdrawals, and track financial activity through a clean and user-friendly dashboard. The platform promotes accountability and trust by automating traditional cooperative functions through secure digital workflows.\n\nYou built the marketing website independently and collaborated on the web application to deliver a seamless user experience. The system’s interface simplifies group savings and expense management while ensuring financial data is secure and accessible. Adashe redefines how communities handle cooperative funding in today’s digital economy.",
-    image: "/assets/images/adashe.png",
-    sector: ["fintech", "cooperative"],
-  },
-  {
-    name: "MAP",
-    url: "https://mapis4u.com/",
-    shortDescription: "Cloud ERP for hospitals and healthcare providers.",
-    description:
-      "MAP is a cloud-based ERP platform created for hospitals and healthcare providers to streamline operations and improve efficiency. It manages billing, patient scheduling, inventory, staff performance, and payments all from one connected dashboard. The system enhances communication between healthcare professionals and suppliers, ensuring data accuracy and faster decision-making across departments.\n\nBy digitizing key administrative processes, MAP reduces manual errors and boosts productivity. Its easy-to-navigate interface helps hospitals stay organized, maintain compliance, and deliver better patient outcomes. The platform demonstrates how digital transformation can bring clarity and structure to healthcare management on both small and large scales.",
-    image: "/assets/images/map.png",
-    sector: ["healthcare", "cloud", "erp"],
-  },
+  // {
+  //   name: "Adashe",
+  //   url: "https://adashe.net",
+  //   shortDescription:
+  //     "Digital cooperative platform for savings and contributions.",
+  //   description:
+  //     "Adashe is a modern digital cooperative-society platform that helps users save, contribute, and manage group finances transparently. Members can make contributions, request withdrawals, and track financial activity through a clean and user-friendly dashboard. The platform promotes accountability and trust by automating traditional cooperative functions through secure digital workflows.\n\nYou built the marketing website independently and collaborated on the web application to deliver a seamless user experience. The system’s interface simplifies group savings and expense management while ensuring financial data is secure and accessible. Adashe redefines how communities handle cooperative funding in today’s digital economy.",
+  //   image: "/assets/images/adashe.png",
+  //   sector: ["fintech", "cooperative"],
+  // },
+  // {
+  //   name: "MAP",
+  //   url: "https://mapis4u.com/",
+  //   shortDescription: "Cloud ERP for hospitals and healthcare providers.",
+  //   description:
+  //     "MAP is a cloud-based ERP platform created for hospitals and healthcare providers to streamline operations and improve efficiency. It manages billing, patient scheduling, inventory, staff performance, and payments all from one connected dashboard. The system enhances communication between healthcare professionals and suppliers, ensuring data accuracy and faster decision-making across departments.\n\nBy digitizing key administrative processes, MAP reduces manual errors and boosts productivity. Its easy-to-navigate interface helps hospitals stay organized, maintain compliance, and deliver better patient outcomes. The platform demonstrates how digital transformation can bring clarity and structure to healthcare management on both small and large scales.",
+  //   image: "/assets/images/map.png",
+  //   sector: ["healthcare", "cloud", "erp"],
+  // },
   // {
   //   name: "iVerify",
   //   url: "#",
