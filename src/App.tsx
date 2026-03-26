@@ -21,7 +21,7 @@ function App() {
 
   useEffect(() => {
     console.info(
-      "Like this site, shoot me a mail at samuelobasi2005@gmail.com"
+      "Like this site, shoot me a mail at samuelobasi2005@gmail.com",
     );
   }, []);
 
@@ -259,10 +259,10 @@ function App() {
         >
           cool web <strong>animations</strong> i made
         </h1>
-        <ul className="md:grid-cols-2 grid-cols-1 gap-y-6 gap-x-4 grid my-5">
+        <div className="columns-1 md:columns-2 gap-4 my-5 space-y-4">
           <video
-            src="https://video.twimg.com/amplify_video/1943014976299401216/vid/avc1/1152x720/mOcp9eV7BDcyO-qV.mp4"
-            className={`border col-span-1 rounded-lg object-cover ${
+            src="/assets/images/navigators.mp4"
+            className={`w-full mb-4 break-inside-avoid rounded-lg border object-cover overflow-hidden ${
               isDark ? "border-[#333]" : "border-[#CCC]"
             }`}
             autoPlay
@@ -270,11 +270,11 @@ function App() {
             loop
             playsInline
             preload="auto"
-          ></video>
+          />
+
           <video
-            src=" https://video.twimg.com/amplify_video/1944726662316195840/vid/avc1/1152x720/-ajAO6Dy481kpaiW.mp4
-    "
-            className={`border col-span-1 rounded-lg object-cover ${
+            src="/assets/images/kaws.mp4"
+            className={`w-full mb-4 break-inside-avoid rounded-lg border object-cover overflow-hidden ${
               isDark ? "border-[#333]" : "border-[#CCC]"
             }`}
             autoPlay
@@ -282,8 +282,32 @@ function App() {
             loop
             playsInline
             preload="auto"
-          ></video>
-        </ul>
+          />
+
+          <video
+            src="/assets/images/spylt.mp4"
+            className={`w-full mb-4 break-inside-avoid rounded-lg border object-cover overflow-hidden ${
+              isDark ? "border-[#333]" : "border-[#CCC]"
+            }`}
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="auto"
+          />
+
+          <video
+            src="/assets/images/blob.mp4"
+            className={`w-full mb-4 break-inside-avoid rounded-lg border object-cover overflow-hidden ${
+              isDark ? "border-[#333]" : "border-[#CCC]"
+            }`}
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="auto"
+          />
+        </div>
 
         <a
           target="_blank"
@@ -334,10 +358,10 @@ function App() {
                       xp.sector === "Health"
                         ? "text-[#737CDE]"
                         : xp.sector === "FinTech"
-                        ? "text-[#FE5200]"
-                        : isDark
-                        ? "text-[#AAA] font-medium"
-                        : "text-[#555] font-medium"
+                          ? "text-[#FE5200]"
+                          : isDark
+                            ? "text-[#AAA] font-medium"
+                            : "text-[#555] font-medium"
                     } transition-colors duration-300`}
                   >
                     {xp.sector}

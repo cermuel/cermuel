@@ -10,6 +10,16 @@ export interface Project {
 
 const projects: Project[] = [
   {
+    name: "Pulse",
+    url: "https://pulse.cermuel.dev/",
+    shortDescription:
+      "Uptime monitoring and incident tracking for your services",
+    description:
+      "Pulse is a lightweight uptime monitoring service that keeps watch on your critical endpoints and lets you know the moment something breaks. Add a URL, set a check interval, and Pulse handles the rest — pinging your services on schedule, measuring response times, and storing every result.\n\nWhen a service goes down, Pulse opens a Flair incident automatically, logs every check during the outage, and fires an alert to your inbox. When it recovers, you get a resolution email with the full incident timeline. No manual tracking, no missed downtime.\n\nBuilt for developers and small teams who want the essentials without the enterprise price tag. Sign in with GitHub or Google, add your first pulse in under a minute, and share a public status page with your users using a clean, memorable URL.",
+    image: "/assets/images/pulse.png",
+    sector: ["devtools", "monitoring"],
+  },
+  {
     name: "Synqd",
     url: "https://synqd.vercel.app/",
     shortDescription: "Realtime file sharing across devices without limit",
@@ -49,14 +59,24 @@ const projects: Project[] = [
     image: "/assets/images/meridian.png",
     sector: ["dev tools", "visualization"],
   },
+  // {
+  //   name: "INIT",
+  //   url: "https://init-theta.vercel.app",
+  //   shortDescription: "A macOS-style web desktop built in the browser.",
+  //   description:
+  //     "INIT is a macOS-style web desktop environment built with Next.js that recreates the feel of a real computer system directly inside the browser. It features draggable, resizable windows, a functional dock, app launching, and persistent local storage that mimics an operating system’s file management. INIT combines performance and aesthetic realism to create a smooth, immersive experience for users who love desktop-like interactivity on the web.\n\nThe project was designed to explore how far modern web technologies can go in simulating native operating systems. Every element—from the icons to the context menus—was built to behave like macOS, giving users an authentic digital workspace without leaving the browser.",
+  //   image: "/assets/images/init.png",
+  //   sector: ["os", "simulation"],
+  // },
   {
-    name: "INIT",
-    url: "https://init-theta.vercel.app",
-    shortDescription: "A macOS-style web desktop built in the browser.",
+    name: "Warts",
+    url: "https://warts.cermuel.dev/",
+    shortDescription:
+      "A curated space for wallpaper art and creative expression",
     description:
-      "INIT is a macOS-style web desktop environment built with Next.js that recreates the feel of a real computer system directly inside the browser. It features draggable, resizable windows, a functional dock, app launching, and persistent local storage that mimics an operating system’s file management. INIT combines performance and aesthetic realism to create a smooth, immersive experience for users who love desktop-like interactivity on the web.\n\nThe project was designed to explore how far modern web technologies can go in simulating native operating systems. Every element—from the icons to the context menus—was built to behave like macOS, giving users an authentic digital workspace without leaving the browser.",
-    image: "/assets/images/init.png",
-    sector: ["os", "simulation"],
+      "Warts is a wallpaper gallery built for people who care about what's on their screen. Browse a curated collection of high-quality artwork and photography, download anything you like, and post your own art if you want to share it with others.\n\nNo algorithm, no feed, no noise. Just a clean space to find something beautiful for your desktop or phone. Artists can upload their work and get it in front of people who actually appreciate it.\n\nSimple by design — come for the wallpapers, stay for the art.",
+    image: "/assets/images/warts.png",
+    sector: ["art", "wallpapers"],
   },
   {
     name: "Snipp",
@@ -77,15 +97,7 @@ const projects: Project[] = [
     image: "/assets/images/typesmith.png",
     sector: ["developer", "tooling"],
   },
-  {
-    name: "SpaceTrade",
-    url: "https://getspacetrade.com/",
-    shortDescription: "Trade crypto and pay bills with ease.",
-    description:
-      "SpaceTrade is a secure digital exchange platform that allows users to trade cryptocurrencies, redeem gift cards, and pay utility bills all in one place. It provides lightning-fast transactions, real-time rates, and a clean interface optimized for mobile users. With over 17,000 active users, the platform has become a trusted hub for both new and experienced traders looking for reliability and convenience.\n\nWhat sets SpaceTrade apart is its blend of security and simplicity. Every transaction is insured and protected, ensuring peace of mind for users. Its 24/7 uptime, responsive customer support, and competitive exchange rates make digital asset management effortless and rewarding.",
-    image: "/assets/images/spacetrade.png",
-    sector: ["crypto", "finance", "payments"],
-  },
+
   // {
   //   name: "Adashe",
   //   url: "https://adashe.net",
@@ -121,7 +133,7 @@ const works = [
     title: "MAP",
     stack: "NextJS + Web Sockets + Redux",
     description: "Medical Advancement Platform",
-    link: "https://mapis4u.com/",
+    link: "https://www.linkedin.com/company/map-systems-inc",
   },
   {
     title: "Adashe",

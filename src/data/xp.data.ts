@@ -30,12 +30,12 @@ export const experience: XP[] = [
       "developing cross-platform fintech apps and improving ui consistency across products.",
   },
   {
-    logo: "https://media.licdn.com/dms/image/v2/D4D0BAQEeNLNbcLftFQ/company-logo_200_200/company-logo_200_200/0/1729590414180/map_systems_inc_logo?e=1762992000&v=beta&t=0hna74ePdcIdJYNgFnI2dT5skOTjUYgoCnl7R9X59aI",
+    logo: "https://media.licdn.com/dms/image/v2/D560BAQFhXBH0V_DOog/company-logo_200_200/B56ZwQC4PMIUAI-/0/1769795717144/map_systems_inc_logo?e=1776297600&v=beta&t=ECgPtHjoV4vYKxQXx5k2HO_gyusUIlEppO4vS-R5M30",
     name: "MAP Systems Inc.",
     duration: "May 2025 - Sep 2025",
     role: "Software Engineer",
     sector: "Health",
-    link: "https://mapis4u.com/",
+    link: "https://www.linkedin.com/company/map-systems-inc",
     description:
       "worked on the company’s internal communication system to enhance collaboration and reliability.",
   },
