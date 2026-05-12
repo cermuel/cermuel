@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 import "../index.css";
 
 export const metadata: Metadata = {
-  title: "S✰muel Ngene",
+  title: "Samuel Ngene",
   description: "Frontend engineer portfolio",
   icons: {
     icon: "/icon.png",

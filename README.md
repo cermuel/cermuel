@@ -1,4 +1,4 @@
-# S✰muel Ngene
+# Samuel Ngene
 
 ## Frontend Engineer
 
@@ -10,7 +10,7 @@
 <h2 align="left">Connect with me:</h2>
 <p align="left">
 <a href="https://x.com/yrn_cermuel" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="cermuel" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/ngene-samuel-obasi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="S✰muel Ngene" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/ngene-samuel-obasi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Samuel Ngene" height="30" width="40" /></a>
 </p>
 
 <h2>SKILLS </h2>
