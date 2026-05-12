@@ -1,15 +1,10 @@
-import { IconType } from "react-icons";
+import type { SocialLink } from "../types/link";
 import { BsFileEarmarkArrowDown } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { RiTwitterXFill } from "react-icons/ri";
 
-export interface Link {
-  icon: IconType;
-  url: string;
-}
-
-export const links: Link[] = [
+export const links: SocialLink[] = [
   { icon: FaLinkedin, url: "https://www.linkedin.com/in/ngene-samuel-obasi/" },
   { icon: FaGithub, url: "https://github.com/cermuel" },
   {

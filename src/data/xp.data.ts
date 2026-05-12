@@ -1,14 +1,6 @@
-export interface XP {
-  logo: string;
-  duration: string;
-  name: string;
-  role: string;
-  sector: string;
-  link: string;
-  description: string;
-}
+import type { Experience } from "../types/experience";
 
-export const experience: XP[] = [
+export const experience: Experience[] = [
   {
     logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/7e/1a/4e7e1a55-2e78-e195-c5ab-b3e3ef9bca91/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/460x0w.webp",
     name: "SpaceTrade Technologies",

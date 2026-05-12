@@ -2,13 +2,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 @import "tailwindcss";
 
+:root {
+  --color-bg-light: #f9fafb;
+  --color-bg-dark: #101011;
+  --color-text-light: #111827;
+  --color-text-dark: #f9fafb;
+  --color-muted-light: #6b7280;
+  --color-muted-dark: #a1a1aa;
+  --color-border-light: #e5e7eb;
+  --color-border-dark: #2a2a2e;
+  --color-surface-light: #ffffff;
+  --color-surface-dark: #18181b;
+}
+
+button {
+  cursor: pointer !important;
+}
 html {
   scroll-behavior: smooth;
 }
 body {
   font-family: "Space Grotesk", sans-serif;
-  background-color: oklch(98% 0 0);
-  color: #000;
+  background-color: var(--color-bg-light);
+  color: var(--color-text-light);
 }
 .logo {
   font-family: "Noto Sans JP", sans-serif;
