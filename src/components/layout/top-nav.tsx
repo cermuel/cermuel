@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { PROFILE } from "../../constants/profile.constants";
-import { ThemeToggle } from "./ThemeToggle";
+import { ThemeToggle } from "./theme-toggle";
 
 export function TopNav() {
   return (

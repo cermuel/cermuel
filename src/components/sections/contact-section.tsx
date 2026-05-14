@@ -1,5 +1,5 @@
 import { useTheme } from "../../hooks/useTheme";
-import { SocialDock } from "../layout/SocialDock";
+import { SocialDock } from "../layout/social-dock";
 
 export function ContactSection() {
   const { isDark } = useTheme();

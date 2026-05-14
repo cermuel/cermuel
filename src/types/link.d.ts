@@ -1,6 +1,6 @@
-import type { IconType } from "react-icons";
+import type { IconSvgElement } from "@hugeicons/react";
 
 export interface SocialLink {
-  icon: IconType;
+  icon: IconSvgElement;
   url: string;
 }

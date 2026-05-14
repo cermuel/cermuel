@@ -1,6 +1,7 @@
+import { HugeiconsIcon } from "@hugeicons/react";
+import { ArrowUpRight03Icon } from "@hugeicons/core-free-icons";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
-import { GoArrowUpRight } from "react-icons/go";
 import { ANIMATION_REELS, PROFILE } from "../../constants/profile.constants";
 import { useTheme } from "../../hooks/useTheme";
 
@@ -40,7 +41,7 @@ export function AnimationsSection() {
           }`}
         >
           Full thread
-          <GoArrowUpRight />
+          <HugeiconsIcon icon={ArrowUpRight03Icon} size={16} strokeWidth={2} />
         </a>
       </div>
 

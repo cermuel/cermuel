@@ -1,14 +1,16 @@
 "use client";
 
 import { useState } from "react";
-import { AnimationsSection } from "./components/sections/AnimationsSection";
-import { AboutSection } from "./components/sections/AboutSection";
-import { ContactSection } from "./components/sections/ContactSection";
-import { ExperienceSection } from "./components/sections/ExperienceSection";
-import { FloatingContact } from "./components/layout/FloatingContact";
-import { ProjectModal } from "./components/sections/ProjectModal";
-import { ProjectsSection } from "./components/sections/ProjectsSection";
-import { ThemeProvider } from "./context/ThemeContext";
+import { AnimationsSection } from "./components/sections/animations-section";
+import { AboutSection } from "./components/sections/about-section";
+import { ContactSection } from "./components/sections/contact-section";
+import { ExperienceSection } from "./components/sections/experience-section";
+import { FloatingContact } from "./components/layout/floating-contact";
+import { ProjectModal } from "./components/sections/project-modal";
+import { ProjectsSection } from "./components/sections/projects-section";
+import { ThemeProvider } from "./context/theme-context";
+import { ThemeTransitionProvider } from "./context/theme-transition-context";
+import { THEME_TRANSITION_ROOT_ID } from "./constants/theme-transition.constants";
 import { useBodyBackground } from "./hooks/useBodyBackground";
 import { useBodyScrollLock } from "./hooks/useBodyScrollLock";
 import { useTheme } from "./hooks/useTheme";
@@ -23,9 +25,10 @@ function AppContent() {
 
   return (
     <main
+      id={THEME_TRANSITION_ROOT_ID}
       className={`flex w-screen flex-col items-center justify-center pt-14 ${
         isDark ? "bg-[#101011] text-[#F9FAFB]" : "bg-[#F9FAFB] text-[#111827]"
-      } transition-colors duration-500`}
+      }`}
     >
       {selectedProject ? (
         <ProjectModal
@@ -46,7 +49,9 @@ function AppContent() {
 function App() {
   return (
     <ThemeProvider>
-      <AppContent />
+      <ThemeTransitionProvider>
+        <AppContent />
+      </ThemeTransitionProvider>
     </ThemeProvider>
   );
 }

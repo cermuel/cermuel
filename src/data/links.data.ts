@@ -1,16 +1,22 @@
 import type { SocialLink } from "../types/link";
-import { BsFileEarmarkArrowDown } from "react-icons/bs";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { IoMdMail } from "react-icons/io";
-import { RiTwitterXFill } from "react-icons/ri";
+import {
+  Download03Icon,
+  GithubIcon,
+  Linkedin02Icon,
+  Mail01Icon,
+  NewTwitterIcon,
+} from "@hugeicons/core-free-icons";
 
 export const links: SocialLink[] = [
-  { icon: FaLinkedin, url: "https://www.linkedin.com/in/ngene-samuel-obasi/" },
-  { icon: FaGithub, url: "https://github.com/cermuel" },
   {
-    icon: RiTwitterXFill,
+    icon: Linkedin02Icon,
+    url: "https://www.linkedin.com/in/ngene-samuel-obasi/",
+  },
+  { icon: GithubIcon, url: "https://github.com/cermuel" },
+  {
+    icon: NewTwitterIcon,
     url: "https://x.com/yrn_cermuel",
   },
-  { icon: IoMdMail, url: "mailto:samuelobasi2005@gmail.com" },
-  { icon: BsFileEarmarkArrowDown, url: "/files/Ngene Samuel Obasi Resume.pdf" },
+  { icon: Mail01Icon, url: "mailto:samuelobasi2005@gmail.com" },
+  { icon: Download03Icon, url: "/files/Ngene Samuel Obasi Resume.pdf" },
 ];

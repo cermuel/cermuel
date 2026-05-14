@@ -1,8 +1,8 @@
+import { HugeiconsIcon } from "@hugeicons/react";
+import { Cancel01Icon, Link02Icon } from "@hugeicons/core-free-icons";
 import { motion, type Variants } from "framer-motion";
 import Image from "next/image";
 import { PointerEvent, useState } from "react";
-import { GoLink } from "react-icons/go";
-import { IoClose } from "react-icons/io5";
 import { useTheme } from "../../hooks/useTheme";
 import type { Project } from "../../types/project";
 
@@ -129,7 +129,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
           }`}
           type="button"
         >
-          <IoClose />
+          <HugeiconsIcon icon={Cancel01Icon} size={18} strokeWidth={2} />
         </button>
 
         <div
@@ -238,7 +238,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
                   isDark ? "bg-white text-[#101011]" : "bg-[#111827] text-white"
                 }`}
               >
-                View <GoLink size={14} />
+                View <HugeiconsIcon icon={Link02Icon} size={14} strokeWidth={2} />
               </a>
             </div>
           </motion.div>

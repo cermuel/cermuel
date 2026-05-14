@@ -1,7 +1,8 @@
-import { BsFileEarmarkArrowDown } from "react-icons/bs";
+import { HugeiconsIcon } from "@hugeicons/react";
+import { Download03Icon } from "@hugeicons/core-free-icons";
 import { ABOUT_ITEMS, PROFILE } from "../../constants/profile.constants";
 import { useTheme } from "../../hooks/useTheme";
-import { TopNav } from "../layout/TopNav";
+import { TopNav } from "../layout/top-nav";
 
 export function AboutSection() {
   const { isDark } = useTheme();
@@ -50,7 +51,7 @@ export function AboutSection() {
         } px-3 py-1.5 text-sm transition-all duration-500 hover:translate-x-1`}
       >
         Download Resume
-        <BsFileEarmarkArrowDown />
+        <HugeiconsIcon icon={Download03Icon} size={16} strokeWidth={2} />
       </a>
     </section>
   );

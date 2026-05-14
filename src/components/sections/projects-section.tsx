@@ -1,6 +1,7 @@
+import { HugeiconsIcon } from "@hugeicons/react";
+import { ArrowUpRight03Icon } from "@hugeicons/core-free-icons";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { GoArrowUpRight } from "react-icons/go";
 import { project } from "../../data/project.data";
 import { useTheme } from "../../hooks/useTheme";
 import type { Project } from "../../types/project";
@@ -116,41 +117,45 @@ export function ProjectsSection({ onSelectProject }: ProjectsSectionProps) {
                       : "bg-black/5 text-black/55 group-hover:bg-[#111827] group-hover:text-white"
                   }`}
                 >
-                  <GoArrowUpRight />
+                  <HugeiconsIcon
+                    icon={ArrowUpRight03Icon}
+                    size={17}
+                    strokeWidth={2}
+                  />
                 </span>
               </button>
             </motion.li>
           ))}
-      {project.projects.length > 3 ? (
-        <motion.button
-          type="button"
-          onClick={() => setShowAll((current) => !current)}
-          className={`mt-4 w-max rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
-            isDark
-              ? "border-white/10 text-white/70 hover:border-white/25 hover:text-white"
-              : "border-black/10 text-black/70 hover:border-black/25 hover:text-black"
-          }`}
-          initial={{ opacity: 0, y: 8 }}
-          animate={{ opacity: 1, y: 0 }}
-          whileHover={{ scale: 1.03 }}
-          whileTap={{ scale: 0.97 }}
-          transition={{ duration: 0.22, ease: "easeOut" }}
-          layout
-        >
-          <AnimatePresence mode="wait" initial={false}>
-            <motion.span
-              key={showAll ? "less" : "more"}
-              initial={{ opacity: 0, y: 6 }}
+          {project.projects.length > 3 ? (
+            <motion.button
+              type="button"
+              onClick={() => setShowAll((current) => !current)}
+              className={`mt-4 w-max rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
+                isDark
+                  ? "border-white/10 text-white/70 hover:border-white/25 hover:text-white"
+                  : "border-black/10 text-black/70 hover:border-black/25 hover:text-black"
+              }`}
+              initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -6 }}
-              transition={{ duration: 0.18, ease: "easeOut" }}
-              className="block"
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.97 }}
+              transition={{ duration: 0.22, ease: "easeOut" }}
+              layout
             >
-              {showAll ? "Show less" : "See more"}
-            </motion.span>
-          </AnimatePresence>
-        </motion.button>
-      ) : null}
+              <AnimatePresence mode="wait" initial={false}>
+                <motion.span
+                  key={showAll ? "less" : "more"}
+                  initial={{ opacity: 0, y: 6 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -6 }}
+                  transition={{ duration: 0.18, ease: "easeOut" }}
+                  className="block"
+                >
+                  {showAll ? "Show less" : "See more"}
+                </motion.span>
+              </AnimatePresence>
+            </motion.button>
+          ) : null}
         </AnimatePresence>
       </motion.ul>
     </motion.section>

@@ -1,8 +1,11 @@
 import { HugeiconsIcon } from "@hugeicons/react";
-import { Loading03Icon, Sent02Icon } from "@hugeicons/core-free-icons";
+import {
+  Cancel01Icon,
+  Loading03Icon,
+  Sent02Icon,
+} from "@hugeicons/core-free-icons";
 import { AnimatePresence, motion } from "framer-motion";
 import { FormEvent, useEffect, useMemo, useState } from "react";
-import { IoClose } from "react-icons/io5";
 import { CONTACT_COPY } from "../../constants/contact.constants";
 import { useTheme } from "../../hooks/useTheme";
 import type {
@@ -10,8 +13,8 @@ import type {
   ContactStatus,
   ContactStep,
 } from "../../types/contact";
-import { SendIcon } from "../icons/SendIcon";
-import { Popover } from "../ui/Popover";
+import { SendIcon } from "../icons/send-icon";
+import { Popover } from "../ui/popover";
 
 const INITIAL_FORM_STATE: ContactFormState = {
   name: "",
@@ -129,7 +132,7 @@ export function FloatingContact() {
                 transition={{ duration: 0.2, ease: "easeOut" }}
                 whileHover={{ rotate: 90 }}
               >
-                <IoClose size={24} />
+                <HugeiconsIcon icon={Cancel01Icon} size={24} strokeWidth={2} />
               </motion.span>
             ) : (
               <motion.span
@@ -219,7 +222,7 @@ export function FloatingContact() {
                   onClick={() => closePopover(false)}
                   type="button"
                 >
-                  <IoClose size={12} />
+                  <HugeiconsIcon icon={Cancel01Icon} size={12} strokeWidth={2} />
                 </button>
               </div>
               {step === "message" ? (

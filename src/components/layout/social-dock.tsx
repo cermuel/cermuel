@@ -1,3 +1,4 @@
+import { HugeiconsIcon } from "@hugeicons/react";
 import { links } from "../../data/links.data";
 import { useTheme } from "../../hooks/useTheme";
 
@@ -17,8 +18,6 @@ export function SocialDock({ className = "" }: SocialDockProps) {
       } p-2 transition-colors duration-300 ${className}`}
     >
       {links.map((link) => {
-        const Icon = link.icon;
-
         return (
           <a
             key={link.url}
@@ -30,7 +29,7 @@ export function SocialDock({ className = "" }: SocialDockProps) {
                 : "text-[#111827] hover:bg-[#F3F4F6]"
             }`}
           >
-            <Icon />
+            <HugeiconsIcon icon={link.icon} size={18} strokeWidth={2} />
           </a>
         );
       })}
