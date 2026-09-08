@@ -234,11 +234,12 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
                 href={project.url}
                 target="_blank"
                 rel="noreferrer"
-                className={`inline-flex h-10 shrink-0 items-center justify-center gap-2 rounded-full px-4 text-sm font-semibold transition-all duration-300 hover:gap-3 ${
+                className={`inline-flex h-9 shrink-0 items-center justify-center gap-2 rounded-full px-4 text-sm font-semibold transition-all duration-300 hover:gap-3 ${
                   isDark ? "bg-white text-[#101011]" : "bg-[#111827] text-white"
                 }`}
               >
-                View <HugeiconsIcon icon={Link02Icon} size={14} strokeWidth={2} />
+                View{" "}
+                <HugeiconsIcon icon={Link02Icon} size={14} strokeWidth={2} />
               </a>
             </div>
           </motion.div>

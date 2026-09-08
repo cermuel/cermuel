@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { AnimationsSection } from "./components/sections/animations-section";
 import { AboutSection } from "./components/sections/about-section";
 import { ContactSection } from "./components/sections/contact-section";
 import { ExperienceSection } from "./components/sections/experience-section";
@@ -39,7 +38,7 @@ function AppContent() {
       <FloatingContact />
       <AboutSection />
       <ProjectsSection onSelectProject={setSelectedProject} />
-      <AnimationsSection />
+      {/* <AnimationsSection /> */}
       <ExperienceSection />
       <ContactSection />
     </main>

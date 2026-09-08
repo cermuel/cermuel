@@ -2,6 +2,16 @@ import type { Project, Work } from "../types/project";
 
 const projects: Project[] = [
   {
+    name: "Anissa",
+    url: "https://anissa.cermuel.dev/",
+    shortDescription:
+      "A collaborative workspace for planning, organising, and tracking work.",
+    description:
+      "Anissa is a collaborative project management platform built to help teams keep work organised in one place. Create spaces, organise tasks, assign work, set priorities and due dates, and keep progress clear across projects.\n\nIt brings the flexibility of tools like ClickUp and Notion into a focused workspace, making it easier for teams to move from ideas to completed work without losing context.",
+    image: "/assets/images/anissa.png",
+    sector: ["productivity", "project management"],
+  },
+  {
     name: "Pulse",
     url: "https://pulse.cermuel.dev/",
     shortDescription:

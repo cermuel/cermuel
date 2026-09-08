@@ -2,6 +2,16 @@ import type { Experience } from "../types/experience";
 
 export const experience: Experience[] = [
   {
+    logo: "https://media.licdn.com/dms/image/v2/D4D0BAQGbkyi5i1FDDQ/company-logo_200_200/company-logo_200_200/0/1712321658422/wearecheck_logo?e=1790208000&v=beta&t=yvSFyOoPfOZcpiYdDrM5gwwfpjJCKFbb5xJVNo1yui4",
+    name: "Check",
+    duration: "Apr 2025 - Jul 2025",
+    role: "Software Engineer",
+    sector: "Creative technology",
+    link: "https://wearecheck.co/",
+    description:
+      "contributed to building a collaborative project management platform for teams.",
+  },
+  {
     logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/7e/1a/4e7e1a55-2e78-e195-c5ab-b3e3ef9bca91/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/460x0w.webp",
     name: "SpaceTrade Technologies",
     duration: "Sep 2025 - Present",
@@ -31,16 +41,16 @@ export const experience: Experience[] = [
     description:
       "worked on the company’s internal communication system to enhance collaboration and reliability.",
   },
-  {
-    logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/9e/ba/b19eba6d-0506-8313-67bb-120a15c4c71e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/460x0w.webp",
-    name: "Couch Co.",
-    duration: "Sep 2022 - Feb 2023",
-    role: "Frontend Developer",
-    sector: "Health",
-    link: "https://www.joincouch.co/",
-    description:
-      "helped design and build mental health tools with clean and accessible ui.",
-  },
+  // {
+  //   logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/9e/ba/b19eba6d-0506-8313-67bb-120a15c4c71e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/460x0w.webp",
+  //   name: "Couch Co.",
+  //   duration: "Sep 2022 - Feb 2023",
+  //   role: "Frontend Developer",
+  //   sector: "Health",
+  //   link: "https://www.joincouch.co/",
+  //   description:
+  //     "helped design and build mental health tools with clean and accessible ui.",
+  // },
   {
     logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgF4R3XoSgM7dqN3_c1_OEezuFwSMQiOjBGA&s",
     name: "Landmark University.",
