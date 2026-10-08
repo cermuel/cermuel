@@ -1,11 +1,10 @@
 # Samuel Ngene
 
-## Frontend Engineer
+## Software Engineer
 
 ![](https://komarev.com/ghpvc/?username=cermuel&style=for-the-badge&color=brightgreen)
 
 - 📫 Reach me at **samuelobasi2005@gmail.com**
-- 🔗 Check out <a href="https://init-theta.vercel.app/" target="blank">Init</a>
 
 <h2 align="left">Connect with me:</h2>
 <p align="left">
@@ -13,12 +12,6 @@
 <a href="https://linkedin.com/in/ngene-samuel-obasi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Samuel Ngene" height="30" width="40" /></a>
 </p>
 
-<h2>SKILLS </h2>
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=next,react,redux,js,vite,typescript,scss,tailwind,git,firebase,nodejs,mongo" />
-  </a>
-</p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com?user=cermuel&theme=tokyonight&hide_border=true&short_numbers=true" alt="cermuel" /></p>
 
