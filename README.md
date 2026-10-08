@@ -1,6 +1,6 @@
 # Samuel Ngene
 
-## Software Engineer
+# Software Engineer
 
 ![](https://komarev.com/ghpvc/?username=cermuel&style=for-the-badge&color=brightgreen)
 
